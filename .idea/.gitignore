@@ -1,0 +1,8 @@
+# Default ignored files
+/../../go-Hello-kub /.idea/shelf/
+/../../go-Hello-kub /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../go-Hello-kub /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../go-Hello-kub /.idea/dataSources/
+/../../go-Hello-kub /.idea/dataSources.local.xml

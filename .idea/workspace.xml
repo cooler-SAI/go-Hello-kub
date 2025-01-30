@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="more files fix up">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_go_Hello_kub.exe" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_go_Hello_kub.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/stop.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/stop.go" afterDir="false" />
-    </list>
+    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="update goroutine, set up files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more files fix up" />
-    <option name="LAST_COMMIT_MESSAGE" value="more files fix up" />
+    <MESSAGE value="update goroutine, set up files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update goroutine, set up files" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

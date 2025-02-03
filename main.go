@@ -18,11 +18,11 @@ func main() {
 	http.HandleFunc("/", handlers.HelloHandler)
 
 	server := &http.Server{
-		Addr: ":8080",
+		Addr: ":8082",
 	}
 
 	go func() {
-		log.Info().Msg("Server is running on http://localhost:8080")
+		log.Info().Msg("Server is running on http://localhost:8082")
 		if err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			log.Fatal().Err(err).Msg("Server error")
 		}

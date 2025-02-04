@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="misc ups">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="update build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_build_go_Hello_kub.exe" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_go_Hello_kub.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,8 @@
     <MESSAGE value="more files fix up" />
     <MESSAGE value="update goroutine, set up files" />
     <MESSAGE value="misc ups" />
-    <option name="LAST_COMMIT_MESSAGE" value="misc ups" />
+    <MESSAGE value="update build" />
+    <option name="LAST_COMMIT_MESSAGE" value="update build" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

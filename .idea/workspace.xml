@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="update build">
-      <change afterPath="$PROJECT_DIR$/k8s/hello-deployment.yaml" afterDir="false" />
+    <list default="true" id="a3d411e4-c9f7-405a-b320-24fd05ba88b7" name="Changes" comment="added deployment">
+      <change afterPath="$PROJECT_DIR$/k8s/hello-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/hello-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/hello-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kubernetes Deployment" />
+        <option value="Kubernetes Service" />
       </list>
     </option>
   </component>
@@ -55,6 +57,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Docker.docker_go-Hello-kub.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker_go-Hello-kub:latest.executor&quot;: &quot;Run&quot;,
     &quot;Go Build.go build go-Hello-kub.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -78,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker_go-Hello-kub">
+  <component name="RunManager" selected="Docker.docker_go-Hello-kub:latest">
     <configuration name="go build go-Hello-kub" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="go-Hello-kub" />
       <working_directory value="$PROJECT_DIR$" />
@@ -123,24 +126,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker_go-Hello-kub" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="coolersai/go-hello-kub-image" />
-          <option name="containerName" value="docker_go-Hello-kub-container" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="8082" />
-                <option name="hostPort" value="8082" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="docker_go-Hello-kub" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -159,13 +144,32 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker_go-Hello-kub:latest" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="coolersai/go-hello-kub-image" />
+          <option name="containerName" value="docker_go-hello-kub-container" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8082" />
+                <option name="hostPort" value="8082" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker_go-Hello-kub:latest" />
       <item itemvalue="Docker.docker_go-Hello-kub" />
       <item itemvalue="Go Build.go build go-Hello-kub" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker_go-Hello-kub" />
+        <item itemvalue="Docker.docker_go-Hello-kub:latest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +200,8 @@
     <MESSAGE value="update goroutine, set up files" />
     <MESSAGE value="misc ups" />
     <MESSAGE value="update build" />
-    <option name="LAST_COMMIT_MESSAGE" value="update build" />
+    <MESSAGE value="added deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added deployment" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
